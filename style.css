@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.name-colour{
+    color: indigo;
+}
+.hightlight{
+    font-weight: 700px;
+    color: rebeccapurple;
+}
+.hightlight1{
+    font-weight: 1000px;
+    color: rgba(26, 2, 49, 0.89);
+
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin: 5%;
+    padding left: 2% ;
+
+}
+.half-width img{
+    width: 70%;
+
+}
