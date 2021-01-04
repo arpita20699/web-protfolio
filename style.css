@@ -1,19 +1,26 @@
 h1{
     font-size: 50px;
 }
+p{
+    box-shadow: 10px 10px 40px rgb(26, 26, 90);
+    border-radius: 5px;
+    height: 70%;
+    font-weight: 800;
+}
 body{
+    margin: 0px;
     font-family: 'PT Sans', sans-serif;
 }
 .name-colour{
-    color: indigo;
+    color: rgb(75, 9, 122);
 }
 .hightlight{
     font-weight: 700px;
-    color: rebeccapurple;
+    color: rgb(100, 40, 160);
 }
 .hightlight1{
     font-weight: 1000px;
-    color: rgba(26, 2, 49, 0.89);
+    color: rgba(69, 5, 129, 0.89);
 
 }
 .half-width{
@@ -24,6 +31,44 @@ body{
 
 }
 .half-width img{
+    align-content: center;
     width: 70%;
 
+}
+.top-banner{
+    background-image: url("backgroundimg.jpg");
+      
+}
+section{
+    height: 550px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(111, 111, 175), rgb(54, 54, 134));
+    padding: 10px 20px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.other-half{
+    width: 40%;
+    float:left;
+    margin: 5%;
+    padding left: 2% ;
+}
+.other-half img{
+    width: 48%;
+}
+.bottom-banner{
+    background-image: url("backgroundimg.jpg");
+    height: 500px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,navy,blue);
+    border-image-slice: 1;
+}
+#full-stack-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(10, 92, 146),rgba(35, 35, 71, 0.925));
+    border-image-slice: 1;
 }
